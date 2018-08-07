@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">StarWarsCharacterInfo</string>
+
+    <string name="character_name">Name:</string>
+    <string name="character_height">Height in meters:</string>
+    <string name="character_weight">Mass in kg:</string>
+    <string name="creation_date">Date and time of record\'s creation:</string>
+</resources>

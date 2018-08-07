@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".View.CharacterDescriptionActivity"
+    android:orientation="vertical"
+    android:background="@color/background">
+
+    <TextView
+        android:id="@+id/character_name_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/character_name"
+        android:textColor="@color/headerLabelText"/>
+
+    <TextView
+        android:id="@+id/character_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/listItemText"/>
+
+    <TextView
+        android:id="@+id/character_height_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/character_height"
+        android:textColor="@color/headerLabelText"/>
+
+    <TextView
+        android:id="@+id/character_height"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/listItemText"/>
+
+    <TextView
+        android:id="@+id/character_mass_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/character_weight"
+        android:textColor="@color/headerLabelText"/>
+
+    <TextView
+        android:id="@+id/character_mass"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/listItemText"/>
+
+    <TextView
+        android:id="@+id/record_creation_date_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/creation_date"
+        android:textColor="@color/headerLabelText"/>
+
+    <TextView
+        android:id="@+id/record_creation_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/listItemText"/>
+
+</LinearLayout>
