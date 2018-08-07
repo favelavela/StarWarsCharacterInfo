@@ -32,4 +32,4 @@ jobs:
       hockey:
         branch: master
         commands:
-          - ./deploy_master.sh
+          - ./deploy_master.sh && uploadToHockeyApp
