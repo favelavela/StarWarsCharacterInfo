@@ -15,7 +15,7 @@ public class CharacterDescriptionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_character_description);
 
-        TextView nameTextView = findViewById(R.id.character_name);
+        TextView nameTextView = findViewById(R.id.characterName);
         TextView heightTextView = findViewById(R.id.character_height);
         TextView weightTextView = findViewById(R.id.character_mass);
         TextView createdTextView = findViewById(R.id.record_creation_date);
